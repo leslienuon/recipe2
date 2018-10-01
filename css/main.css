@@ -1,0 +1,95 @@
+/*General*/
+body{
+	font-family: Garamond,medium;
+	line-height: 1.4;
+	color: #212121
+
+}
+
+/*Header*/
+header{
+	padding: 1.5rem 5%;
+	background-color: #f0ead6;
+	
+}
+@media screen and (min-width: 40em){
+logo-h1{
+	font-family: Garamond;
+	font-size: 1.5rem;
+	color: #D7CCC8
+	width: 50%;
+	 	 float: left;
+}
+menu-a{
+	color: #D7CCC8
+	text-decoration: none;
+}
+
+/*Main Content*/
+
+main{
+	padding: 3rem 5%;
+	overflow: hidden;
+}
+main-h1{
+	font-family: Garamond;
+	font-size: 3rem;
+}
+
+
+/*Column Left*/
+col-left img{
+	width: 100%
+}
+@media screen and (min-width: 40em){
+col-left {
+ width: 30%;
+	 	 float: left;
+}
+}
+
+
+/*Inner Column*/
+ingredients-ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ingredients-li{
+	padding: .5rem 0;
+	border-top: 1px dotted #BDBDBD
+}
+@media screen and (min-width: 40em){
+ingredients{
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+    overflow: hidden;
+}
+}
+
+/*Column Right*/
+@media screen and (min-width: 40em){
+col-right {
+ width: 65%;
+	 	 float: right;
+}
+}
+/*footer*/
+footer{
+	padding: 1.5rem 5%;
+	background-color: #f0ead6;
+}
+footer p{
+	margin: 0;
+	color: #757575
+}
+footer a{
+	text-decoration: none;
+	font-family: Garamond;
+	color: #ffffff
+	background-color:#f0ead6;
+}
+
+
+
